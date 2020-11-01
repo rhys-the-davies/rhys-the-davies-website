@@ -19,8 +19,52 @@
         <link rel="stylesheet" href="css/text.css" />
 
     </head>
+    <!-- id=body here is a work around the css body i defined in style instead of the default body so I could have a catch all background colour -->
     <body>
-        <div>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">ME</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Who</a></li>
+                        <li><a href="#">What</a></li>
+                        <li><a href="#">Where</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container-fluid body text-center">
+            <h2>Who am I?</h2>
+            <img src="PP.jpg" class="img-responsive img-thumbnail" alt="Rhys' smiling face" width="192" height="256">
+            <h2>A storyteller</h2>
           </div>
+
+        <div class="container-fluid body text-center">
+            <h2>What Am I?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#" class="btn btn-default btn-lg">
+                <span class="glyphicon glyphicon-search"></span> Search</a>
+        </div>
+        
+        <div class="container-fluid body text-center">
+            <h2>Where To Find Me?</h2>
+            <div class="row">
+                <div class="col-xs-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>        
     </body>
 </html>
