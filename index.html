@@ -13,8 +13,10 @@
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+        
         <link href="https://fonts.googleapis.com/css2?family=Jost" rel="stylesheet">
 
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script><script  src="./script.js"></script>
 
         <!-- <meta name="bitly-verification" content="cec1c4e405bb"/> -->
 
@@ -22,8 +24,10 @@
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/text.css" />
 
+
     </head>
     <body>
+
         <nav class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
@@ -45,13 +49,22 @@
         </nav>
 
         <div class="container-fluid text-center">
-            <h1>rhys-the-davies</h1>
-          </div>
+
+            <h1 id="jumboheader"> rhys-the-davies</h1><br>
+
+            <button type="button" onclick="namechanger()">Who?</button>
+
+            <script src="scripts.js"></script>
+            
+          </div>  
+         
 
           <div class="container-fluid body text-center">
             <img src="tea.gif" class="img-responsive img-thumbnail" alt="mildly schocked gif"> 
           </div>
 
+
+          
           <div class="container-fluid text-center">
             <h2>Social places</h2>
             <h4>Say hi</h4>
@@ -91,8 +104,6 @@
               </div>
           </div>
 
-
-
         <footer class="container-fluid body text-center">
             <a href="#top" title="To Top">
                 <span class="glyphicon glyphicon-chevron-up"></span>
@@ -100,5 +111,6 @@
               <p>© 2020 rhys-the-davies</p>
               <p>Hosted on a Raspberry Pi, written with HTML & CSS</p>
             </footer>     
+
     </body>
 </html>
