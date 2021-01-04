@@ -1,12 +1,14 @@
 var names, i;
 
-    names = ["rhys-the-davies",
+    names = ["Ulo Young Tortle",
+        "rhys-the-davies",
         "Rhys Davies",
         "Product Manager", 
-        "Writer", 
+        "Writer",
+        "Mechanical Engineer",
+        "Tinkererbell", 
         "Book Worm", 
-        "Ulo Young Tortle", 
-        "Marstag"];
+        "Ulo Young Tortle"];
     i = 0;
 
 function namechanger() {
