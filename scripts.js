@@ -7,7 +7,7 @@ var names, i;
         "Product Manager", 
         "Writer",
         "Mechanical Engineer",
-        "Tinkererbell", 
+        "Dungeon Master", 
         "Book Worm", 
         "Ulo Young Tortle"];
     i = 0;
